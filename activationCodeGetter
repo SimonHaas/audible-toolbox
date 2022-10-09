@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+ffprobe $1 > output.txt 2>&1
+pattern='checksum'
+/tables/demo.sh "$(cat output.txt | grep $pattern | awk -F $pattern '{print substr($2,5)}')"

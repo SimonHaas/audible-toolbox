@@ -1,0 +1,6 @@
+[submodule "AAXtoMP3"]
+	path = AAXtoMP3
+	url = https://github.com/KrumpetPirate/AAXtoMP3
+[submodule "tables"]
+	path = tables
+	url = https://github.com/inAudible-NG/tables
