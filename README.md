@@ -2,6 +2,8 @@
 
 A collection of scripts packaged as a docker image to help you convert and backup your audible books.
 
+linux/arm64 image does not work yet, use `--platform linux/amd64` on apple silicon.
+
 ## usage
 
 place aax file in audiobook-folder
