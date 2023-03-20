@@ -1,6 +1,6 @@
 # audible-toolbox
 
-A collection of scripts packaged as a docker image to help you backup your audible books.
+A collection of scripts packaged as a docker image to help you convert and backup your audible books.
 
 ## usage
 
