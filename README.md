@@ -17,3 +17,17 @@ docker run --platform linux/amd64 --rm -it -v ${PWD}/audiobook:/audiobook ghcr.i
 ```
 docker run --rm -it -v ${PWD}/audiobook:/audiobook ghcr.io/simonhaas/audible-toolbox /AAXtoMP3 -A <ACTIVATION-CODE> /audiobook/<YOUR-BOOK>.aax
 ```
+
+## build
+
+clone with submodules
+
+``` bash
+git clone --recursive <repository-url>
+```
+
+download submodules after you have already cloned the repo
+
+``` bash
+git submodule update --init --recursive
+```

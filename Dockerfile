@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.04
 
 LABEL org.opencontainers.image.authors="me@simonhaas.eu"
 LABEL org.opencontainers.image.source=https://github.com/SimonHaas/audible-toolbox
